@@ -1,0 +1,19 @@
+{
+  "name": "quizforge",
+  "version": "1.0.0",
+  "description": "Turn a simple text file into an interactive, offline quiz web page. Supports Kurdish Sorani, Arabic and English (RTL + LTR).",
+  "bin": {
+    "quizforge": "bin/quizforge.js"
+  },
+  "main": "src/parse.js",
+  "scripts": {
+    "test": "node test/run.js",
+    "examples": "node bin/quizforge.js examples/sample-en.md && node bin/quizforge.js examples/sample-ckb.md"
+  },
+  "keywords": ["quiz", "education", "kurdish", "sorani", "arabic", "rtl", "students", "html"],
+  "author": "Paywand Dilshad",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
