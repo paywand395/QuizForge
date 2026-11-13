@@ -19,7 +19,7 @@ text is detected automatically, and the buttons are translated.
 Requires [Node.js](https://nodejs.org) 16 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/quizforge.git
+git clone https://github.com/paywand395/quizforge.git
 cd quizforge
 node bin/quizforge.js examples/sample-en.md
 ```
